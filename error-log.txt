@@ -1,0 +1,34 @@
+PrismaClientKnownRequestError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$backend$2f$config$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"].product.findMany()` invocation in
+/Users/kavinprakashkrishnan/Desktop/allohealth/.next/dev/server/chunks/[root-of-the-server]__0511hp0._.js:170:184
+
+  167 const dynamic = 'force-dynamic';
+  168 async function GET() {
+  169     try {
+→ 170         const products = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$backend$2f$config$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"].product.findMany(
+
+    at zr.handleRequestError (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/@prisma/client/runtime/client.js:65:8286)
+    at zr.handleAndLogRequestError (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/@prisma/client/runtime/client.js:65:7581)
+    at zr.request (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/@prisma/client/runtime/client.js:65:7288)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async a (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/@prisma/client/runtime/client.js:75:6862)
+    at async GET (/Users/kavinprakashkrishnan/Desktop/allohealth/.next/dev/server/chunks/[root-of-the-server]__0511hp0._.js:170:26)
+    at async AppRouteRouteModule.do (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:5:40115)
+    at async AppRouteRouteModule.handle (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:5:47395)
+    at async responseGenerator (/Users/kavinprakashkrishnan/Desktop/allohealth/.next/dev/server/chunks/[root-of-the-server]__11jgxdh._.js:17954:38)
+    at async AppRouteRouteModule.handleResponse (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:1:228552)
+    at async handleResponse (/Users/kavinprakashkrishnan/Desktop/allohealth/.next/dev/server/chunks/[root-of-the-server]__11jgxdh._.js:18017:32)
+    at async Module.handler (/Users/kavinprakashkrishnan/Desktop/allohealth/.next/dev/server/chunks/[root-of-the-server]__11jgxdh._.js:18071:13)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/server/base-server.js:1462:9)
+    at async DevServer.renderPageComponent (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/server/base-server.js:1514:24)
+    at async DevServer.renderToResponseImpl (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/server/base-server.js:1564:32)
+    at async DevServer.pipeImpl (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/server/base-server.js:1044:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/server/next-server.js:338:17)
+    at async DevServer.handleRequestImpl (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/server/base-server.js:935:17)
+    at async /Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/server/dev/next-dev-server.js:394:20
+    at async Span.traceAsyncFn (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/trace/trace.js:164:20)
+    at async DevServer.handleRequest (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/server/dev/next-dev-server.js:390:24)
+    at async invokeRender (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/server/lib/router-server.js:266:21)
+    at async handleRequest (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/server/lib/router-server.js:465:24)
+    at async requestHandlerImpl (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/server/lib/router-server.js:514:13)
+    at async Server.requestListener (/Users/kavinprakashkrishnan/Desktop/allohealth/node_modules/next/dist/server/lib/start-server.js:225:13)
