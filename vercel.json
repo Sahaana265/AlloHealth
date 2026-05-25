@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/jobs/sweep-expired-reservations",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}
